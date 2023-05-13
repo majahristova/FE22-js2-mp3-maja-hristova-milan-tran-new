@@ -1,0 +1,23 @@
+{
+  "name": "plant-store",
+  "version": "1.0.0",
+  "description": "Me and Milan worked on this project together. We started of with distribute parts So i (Maya) did the Firebase databse code, and the productside, The landingpage and the store website, with both the Javascript and CSS parts. Meanhwile Milan took care of the cart, and all its functionality and styling and also did the animation including anime.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html ./src/checkout.html ./src/store.html",
+    "build": "parcel build  ./src/index.html ./src/checkout.html ./src/store.html --dist-dir docs --public-url ./",
+    "clean": "del-cli .parcel-cache ./docs ./dist node_modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "cookiesjs": "^3.0.3",
+    "hover.css": "^2.3.2",
+    "js-cookie": "^3.0.1"
+  },
+  "devDependencies": {
+    "del-cli": "^5.0.0",
+    "parcel": "^2.8.3"
+  }
+}
