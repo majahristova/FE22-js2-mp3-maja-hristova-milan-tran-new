@@ -1,5 +1,4 @@
-
-import { fetchingProducts } from "../firebase.js";
+import { fetchingProducts } from "./firebase.js";
 import { addToCart, getCartItems, setupCartItemAnimation } from "./cart.js";
 
 async function initiateStore() {

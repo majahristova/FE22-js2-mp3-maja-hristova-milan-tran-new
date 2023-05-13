@@ -1,5 +1,5 @@
 import { getCartItems } from "./cart.js";
-import { baseUrl } from "../firebase.js";
+import { baseUrl } from "./firebase.js";
 
 export function renderSingleCartItem(cartItem) {
   console.log(`renderOneCartItem`, cartItem);
